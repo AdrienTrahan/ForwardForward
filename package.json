@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "matrix-js": "^1.6.1"
+  }
+}
