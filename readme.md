@@ -48,3 +48,8 @@ To retrieve a layer's activation, call
 ```typescript
 layer1.activations()
 ```
+To retrieve a layer's normalized activations, call
+```typescript
+layer1.getNormalizedActivations()
+```
+Note: this returns a Matrix
