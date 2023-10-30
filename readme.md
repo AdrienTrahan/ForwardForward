@@ -25,7 +25,7 @@ You can then create connections between layers:
 ```typescript
 layer1.connectToNextLayer(layer2);
 ```
-If you want to make apply a Loss function to a specific connection only, you can pass an instance of the function as a parameter.
+If you want to apply a Loss function to a specific connection only, you can pass an instance of the function as a parameter.
 You can also set a custom weight initialization function as a third parameter. (All weights are initialized randomly by default)
 You can also apply a mask to a connection (The default is ```MaskingType.NoMasking```)
 ```typescript
